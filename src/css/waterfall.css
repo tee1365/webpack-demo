@@ -1,0 +1,24 @@
+/* height of container is set in the javascript */
+
+.waterfall-container {
+  position: relative;
+}
+
+.waterfall-item {
+  position: absolute;
+  margin-right: 30px;
+  transition: all 1s;
+}
+
+.waterfall-loadmore {
+  position: absolute;
+  bottom: 50px;
+  left: 50%;
+  transform: translateX(-50%);
+  border: none;
+  padding: 15px;
+  border-radius: 2px;
+  background-color: #FAA406;
+  font-size: 24px;
+  cursor: pointer;
+}

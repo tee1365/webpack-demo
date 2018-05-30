@@ -1,0 +1,12 @@
+var carousel = require("./carousel")
+var gotop = require("./gotop")
+var waterfall = require("./waterfall")
+var iconfont = require("./iconfont")
+var mainStyle = require("Css/main.css")
+var gotopStyle = require("Css/carousel.css")
+var waterfallStyle = require("Css/waterfall.css")
+var carouselStyle = require("Css/gotop.css")
+
+carousel.init($(".carousel"))
+waterfall.init($(".waterfall-container"), true)
+gotop.init($(".container"))

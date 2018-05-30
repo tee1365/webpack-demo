@@ -1,0 +1,12 @@
+.gotop {
+  position: fixed;
+  right: 50px;
+  bottom: 30px;
+  width: 100px;
+  height: 60px;
+  border: none;
+  padding: 10px;
+  border-radius: 3px;
+  background-color: #73C9B8;
+  cursor: pointer;
+}
