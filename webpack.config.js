@@ -9,7 +9,7 @@ module.exports = {
     path: path.resolve(__dirname, "dist"),
     publicPath: "./",
     libraryTarget: "umd",
-    filename: "_[name].js"
+    filename: "[name].js"
   },
   mode: "production",
   resolve: {
@@ -32,10 +32,10 @@ module.exports = {
   plugins: [
     new htmlWebpackPlugin({
       template: "./src/index.html", //源文件
-      filename: "_index.html" //输出文件名
+      filename: "index.html" //输出文件名
     }),
     new MiniCssExtractPlugin({
-      filename: "_[name].css",
+      filename: "[name].css",
 
     }),
     new webpack.ProvidePlugin({
